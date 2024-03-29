@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cutie Pie's Diner</title>
+    <meta name="description" content="Diner Project Module 04">
+    <meta name="author" content="Alondra Martinez">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+   
+    <link href="css/styles.min.css" rel="stylesheet">
+
+    <!-- fav icon stuff -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+ 
+
+    
+    
+</head>
+<body>
+    <div id="headerWrapper">
+        <header>
+            <a href="index.html"><img src="images/logo1x.png" alt="theater curtain logo" width="50" height="50" srcset="images/logo1x.png 1x, images/logo2x.png 2x, images/logo3x.png 3x"></a>
+            <h1>Cutie Pie's Diner</h1>
+        </header>
+    </div>
+    
+    <div id="navWrapper">
+        <nav>
+            <button id="menuBtn">&#9776;</button>
+            <ul id="navItems">
+                <li class="active"><a href="#">Menu</a></li>
+                <li><a href="#">Locations</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="mainWrapper">
+        <main>
+            <h1>Our Menu</h1> <!-- this has to match the active nav page-->
+            <div class="allCards">
+                <section>
+                    <h2>Cheeseburger</h2>
+                    <img class="e2e" src="images/cheeseburger.webp" alt="cheeseburger" width="300" height="175">
+                    <p>Juicy beef patty topped with melted cheese, lettuce, tomato, and pickles, served on a toasted bun</p>
+                    <a href="#">Order now</a>
+                </section>
+                <section>
+                    <h2>Milkshake</h2>
+                    <img class="e2e" src="images/milkshake.webp" alt="cheeseburger" width="300" height="175">
+                    <p>Creamy milkshake blended to perfection, topped with whipped cream and a cherry on top</p>
+                    <a href="#">Order now</a>
+                </section>
+                <section>
+                    <h2>Strawberry pie</h2>
+                    <img class="e2e" src="images/pie.webp" alt="cheeseburger" width="300" height="175">
+                    <p>Sweet and tangy strawberry filling nestled in a flaky, golden crust, served with a dollop of whipped cream</p>
+                    <a href="#">Order now</a>
+                </section>
+                <section>
+                    <h2>Fries</h2>
+                    <img class="e2e" src="images/fries.webp" alt="cheeseburger" width="300" height="175">
+                    <p>Crispy golden fries seasoned to perfection, served hot and fresh</p>
+                    <a href="#">Order now</a>
+                </section>
+                <section>
+                    <h2>Grilled Cheese</h2>
+                    <img class="e2e" src="images/grilled cheese.webp" alt="cheeseburger" width="300" height="175">
+                    <p>Buttery grilled bread oozing with melted cheese, a classic comfort food favorite</p>
+                    <a href="#">Order now</a>
+                </section>
+
+            </div>
+
+        </main>
+    </div>
+
+    <div id="footerWrapper">
+        <footer>
+            <div>
+                <section class="contact">
+                    <p><ion-icon name="person-circle-outline"></ion-icon>Ellen Golden</p>
+                    <p><ion-icon name="location-outline"></ion-icon>Cutie Pie Diner, LLC</p>
+                    <p><ion-icon name="mail-outline"></ion-icon></ion-icon><a href="mailto:ellen@cutiepiediner.com">ellen@cutiepiediner.com</a></p>
+                    <p><ion-icon name="globe-outline"></ion-icon><a href="https://cutiepiediiner.com">https://cutiepiediner.com</a></p>
+                    <p><ion-icon name="call-outline"></ion-icon><a href="tel:1977281885">197-728-1885</a></p>
+                </section>
+                <section class="social">
+                    <a  href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a  href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a  href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a  href="#"><ion-icon name="logo-tiktok"></ion-icon></a>
+                    <a  href="#"><ion-icon name="logo-pinterest"></ion-icon></a>
+                </section>
+                <section class="location">
+                    <address>305 Pine St<br>Rock Springs, WI</address>
+                </section>
+
+            </div>
+
+            <p class="legal"> &copy; <span id="year">x</span> &bull; Alondra Martinez   </p>
+        </footer>
+    </div>
+
+    <script src="js/scripts.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+
+<!-- hamburger, milkshake, pie, fries, grilled cheese -->
